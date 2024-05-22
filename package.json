@@ -1,0 +1,39 @@
+{
+  "name": "ts-lib-starter",
+  "version": "0.0.0",
+  "description": "An opinionated TS Lib Starter",
+  "main": "src/index.ts",
+  "author": {
+    "name": "Kudakwashe Mupeni",
+    "email": "said.coyness-0m@icloud.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "release": "changeset publish",
+    "test": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "dev": "vite",
+    "build": "yarn lint && yarn format && tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.27.3",
+    "@eslint/js": "9.3.0",
+    "@types/node": "20.12.12",
+    "eslint": "9.3.0",
+    "globals": "15.3.0",
+    "prettier": "3.2.5",
+    "typescript": "5.4.5",
+    "vite": "5.2.11",
+    "vitest": "1.6.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
