@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.27.3",
-    "@eslint/js": "9.4.0",
+    "@eslint/js": "9.5.0",
     "@types/node": "20.14.2",
     "eslint": "9.4.0",
     "globals": "15.3.0",
