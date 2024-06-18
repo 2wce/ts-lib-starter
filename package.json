@@ -14,26 +14,18 @@
   "scripts": {
     "release": "changeset publish",
     "test": "vitest",
-    "lint": "eslint .",
-    "format": "prettier --write .",
+    "lint": "biome check",
+    "format": "biome format --write",
     "dev": "vite",
     "build": "yarn lint && yarn format && tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.1",
     "@changesets/cli": "2.27.3",
-    "@eslint/js": "9.4.0",
     "@types/node": "20.14.2",
-    "eslint": "9.4.0",
-    "globals": "15.3.0",
-    "prettier": "3.3.1",
     "typescript": "5.4.5",
     "vite": "5.2.13",
     "vitest": "1.6.0"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "none"
   }
 }
