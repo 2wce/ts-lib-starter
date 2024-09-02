@@ -23,7 +23,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@changesets/cli": "2.27.7",
-    "@types/node": "22.5.0",
+    "@types/node": "22.5.2",
     "typescript": "5.5.4",
     "vite": "5.4.2",
     "vitest": "2.0.5"
