@@ -21,7 +21,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.8",
+    "@biomejs/biome": "2.5.9",
     "@changesets/cli": "3.0.1",
     "@types/node": "26.2.0",
     "typescript": "7.0.2",
